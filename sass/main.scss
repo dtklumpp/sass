@@ -1,0 +1,15 @@
+$blue: rgb(63, 63, 250);
+
+
+article {
+    p {
+        font-size: 20px;
+        &:hover {
+            background-color: chartreuse;
+        }
+    }
+    header {
+        background-color: fuchsia;
+        color: $blue;
+    }
+}
